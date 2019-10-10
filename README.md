@@ -12,7 +12,7 @@ My attempt to make a self driving car with deep learning in Forza Horizon 4.
 ## Example of a capture
  - Image file `x_image.png`
 
-![alt text](https://raw.githubusercontent.com/aurelien_m/HorizonNet/master/data/9_image.png)
+![Screen capture of FH4](data/9_image.png)
 
  - Inputs file `x_inputs.txt` 
 
