@@ -1,0 +1,2 @@
+Steering: (x: -25589, y: -8777)
+Pedals: (gas: 117, brake: 0)
