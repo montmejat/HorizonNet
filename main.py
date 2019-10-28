@@ -4,6 +4,7 @@ from inputs import get_gamepad
 import pyscreenshot as ImageGrab
 import time
 import pygetwindow as gw
+import re
 
 counter = 0
 game_pad = None
@@ -82,10 +83,12 @@ def run():
         print("[" + str(counter) + "] new capture")
         record_game_pad()
         capture_screen(screen_left + 27, screen_top + 33, screen_width - (27 * 2), screen_height - (33 * 2))
-        time.sleep(2)
+        time.sleep(1)
 
 if __name__ == '__main__':
     tests_before_launch()
+
+    counter = int(input("Last data index: "))
 
     print("Prepare to drive! Starting in 10 seconds.")
     time.sleep(10)
